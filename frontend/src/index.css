@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sideBarDiv {
+  width: 20%;
+  background-color: brown;
+  height: 100vh;
+}
+.side_bar_menu {
+  display: flex;
+  justify-content: center;
+}
+
+.bg_color_red {
+  background-color: #cc2030;
+  height: 100vh;
+}
+.main_center_div {
+  margin-top: 5rem;
+}
+.ul_div ul li a {
+  color: white;
+}
+.ul_div ul li a:hover {
+  background-color: white;
+  color: #cc2030;
+}
+.main_header {
+  position: absolute;
+  height: 80px;
+  width: 80%;
+  top: 0;
+  left: 20%;
+  background-color: #fff8f8;
+}
+.main_footer {
+  position: absolute;
+  height: 20px;
+  width: 80%;
+  bottom: 0;
+  left: 20%;
+  background-color: #fff8f8;
+}
+.main_header h2 {
+  padding: 20px;
+}
+.container {
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create_team_btn {
+  margin: 15px;
+}
